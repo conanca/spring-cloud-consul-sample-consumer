@@ -1,4 +1,4 @@
-package cn.news.sample.service;
+package cn.news.sample.service.remote;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
