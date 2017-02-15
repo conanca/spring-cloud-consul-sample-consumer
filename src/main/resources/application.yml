@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: testConsulConsumerApp
+
+# 使用Apache HttpClient替换Feign原生httpclient
+feign:
+  httpclient:
+    enabled: true
