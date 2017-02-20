@@ -14,8 +14,17 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class HystrixWrappedHelloRemoteServiceTest {
     @Autowired
     private HystrixWrappedHelloRemoteService hystrixWrappedHelloRemoteService;
+
     @Test
-    public void testGreeting(){
-        String info  = hystrixWrappedHelloRemoteService.greeting("test");
+    public void testGreeting() {
+        String info = hystrixWrappedHelloRemoteService.greeting("test");
+        System.out.println(info);
     }
+
+    @Test
+    public void testGreeting2() {
+        String info = hystrixWrappedHelloRemoteService.greeting2();
+        System.out.println(info);
+    }
+
 }

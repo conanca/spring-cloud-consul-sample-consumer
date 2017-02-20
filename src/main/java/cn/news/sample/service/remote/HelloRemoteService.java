@@ -13,4 +13,6 @@ public interface HelloRemoteService {
     @RequestMapping(value = "/hello/{name}", method = RequestMethod.GET)
     String sayHello(@PathVariable("name") String name);
 
-  }
+    @RequestMapping("hello2")
+    String sayHello2();
+}
