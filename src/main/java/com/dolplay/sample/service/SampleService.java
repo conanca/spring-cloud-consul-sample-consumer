@@ -1,6 +1,6 @@
-package cn.news.sample.service;
+package com.dolplay.sample.service;
 
-import cn.news.sample.service.remote.HelloRemoteService;
+import com.dolplay.sample.service.remote.HelloRemoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

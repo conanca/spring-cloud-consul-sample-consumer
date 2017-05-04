@@ -1,4 +1,4 @@
-package cn.news.sample.service;
+package com.dolplay.sample.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

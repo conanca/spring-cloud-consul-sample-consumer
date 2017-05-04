@@ -1,6 +1,6 @@
-package cn.news.sample.service;
+package com.dolplay.sample.service;
 
-import cn.news.sample.service.remote.HelloRemoteService;
+import com.dolplay.sample.service.remote.HelloRemoteService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.slf4j.Logger;

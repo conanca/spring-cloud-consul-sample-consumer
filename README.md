@@ -7,5 +7,5 @@ Feign是一种声明式、模板化的HTTP客户端。在Spring Cloud中使用Fe
 
 ## 使用
 1. 启动consul
-2. 启动[该项目](http://192.168.82.98/gongchengdong/spring-cloud-consul-sample-provider)服务提供者
+2. 启动[该项目](http://192.168.82.98/conanca/spring-cloud-consul-sample-provider)服务提供者
 3. 运行测试用例——SampleServiceTest，观察结果 
